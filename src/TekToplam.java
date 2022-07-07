@@ -48,7 +48,7 @@ public class TekToplam {
             System.out.println("Lütfen bir sayı giriniz");
             number = input.nextInt();
             k++;
-            if (number % 2 !=0 ) {
+            if (number % 2 == 1 ) {
                 isTrue = false;}
 
             else if((number % 2==0) || (number % 4==0) ) {
